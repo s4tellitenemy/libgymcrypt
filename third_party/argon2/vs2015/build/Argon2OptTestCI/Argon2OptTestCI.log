@@ -1,0 +1,13 @@
+﻿  argon2.c
+  blake2b.c
+  core.c
+  encoding.c
+  opt.c
+  test.c
+  thread.c
+     Creating library C:\Users\fullp\Desktop\dev\libgymcrypt\third_party\argon2\vs2015\build\Argon2OptTestCI.lib and object C:\Users\fullp\Desktop\dev\libgymcrypt\third_party\argon2\vs2015\build\Argon2OptTestCI.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 87 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Argon2OptTestCI.vcxproj -> C:\Users\fullp\Desktop\dev\libgymcrypt\third_party\argon2\vs2015\build\Argon2OptTestCI.exe

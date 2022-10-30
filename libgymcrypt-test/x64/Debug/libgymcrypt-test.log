@@ -1,0 +1,27 @@
+﻿  libgymcrypt-test.cpp
+C:\vcpkg\installed\x64-windows-static\include\boost\network\uri\uri.hpp(336,40): warning C4244: 'argument': conversion from '__int64' to 'long', possible loss of data
+C:\vcpkg\installed\x64-windows-static\include\boost\network\uri\encode.hpp(48,1): warning C4242: 'argument': conversion from 'CharT' to 'char', possible loss of data
+          with
+          [
+              CharT=int
+          ]
+C:\vcpkg\installed\x64-windows-static\include\boost\network\uri\encode.hpp(131): message : see reference to function template instantiation 'void boost::network::uri::detail::encode_char<char,OutputIterator>(CharT,OutputIterator &)' being compiled
+          with
+          [
+              OutputIterator=std::back_insert_iterator<std::string>,
+              CharT=char
+          ]
+C:\vcpkg\installed\x64-windows-static\include\boost\network\uri\encode.hpp(143): message : see reference to function template instantiation 'OutputIterator boost::network::uri::encode<std::_String_const_iterator<std::_String_val<std::_Simple_types<_Elem>>>,OutputIterator>(const InputIterator &,const InputIterator &,const OutputIterator &)' being compiled
+          with
+          [
+              OutputIterator=std::back_insert_iterator<std::string>,
+              _Elem=char,
+              InputIterator=std::_String_const_iterator<std::_String_val<std::_Simple_types<char>>>
+          ]
+C:\vcpkg\installed\x64-windows-static\include\boost\network\uri\encode.hpp(149): message : see reference to function template instantiation 'OutputIterator boost::network::uri::encode<std::string,std::back_insert_iterator<std::string>>(const SinglePassRange &,const OutputIterator &)' being compiled
+          with
+          [
+              OutputIterator=std::back_insert_iterator<std::string>,
+              SinglePassRange=std::string
+          ]
+  libgymcrypt-test.vcxproj -> C:\Users\fullp\Desktop\dev\libgymcrypt\x64\Debug\libgymcrypt-test.exe
